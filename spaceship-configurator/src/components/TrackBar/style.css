@@ -1,0 +1,24 @@
+.track-bar {
+  align-items: flex-start;
+  border-radius: var(--pub-tokens-eds-radius-small);
+  display: flex;
+  gap: var(--pub-tokens-eds-spacing-small-4);
+  position: relative;
+  width: 180px;
+}
+
+.track-bar .div {
+  border-radius: var(--pub-tokens-eds-radius-small);
+  flex: 1;
+  flex-grow: 1;
+  height: 4px;
+  position: relative;
+}
+
+.track-bar .filled {
+  background-color: var(--pub-tokens-eds-colour-static-bg-accent-alternative);
+}
+
+.track-bar .empty {
+  background-color: var(--pub-tokens-eds-colour-action-stroke-form-default);
+}

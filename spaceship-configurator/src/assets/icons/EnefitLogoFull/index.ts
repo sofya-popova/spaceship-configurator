@@ -1,0 +1,1 @@
+export { EnefitLogoFull } from "./EnefitLogoFull";

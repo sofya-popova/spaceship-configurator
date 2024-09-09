@@ -1,0 +1,1 @@
+export { GlobalChevronRightAlt } from "./GlobalChevronRightAlt";

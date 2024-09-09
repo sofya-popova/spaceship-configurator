@@ -1,0 +1,126 @@
+.advanced-options {
+  align-items: flex-start;
+  border-radius: var(--pub-tokens-eds-radius-modal) var(--pub-tokens-eds-radius-modal) 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.advanced-options .options {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.advanced-options .option {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.advanced-options .icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 4px;
+  position: relative;
+}
+
+.advanced-options .polygon {
+  height: 6px;
+  position: relative;
+  width: 6.93px;
+}
+
+.advanced-options .text-wrapper-3 {
+  color: var(--pub-tokens-eds-colour-static-text-on-basic-accent);
+  font-family: var(--text-line-tiny-400-font-family);
+  font-size: var(--text-line-tiny-400-font-size);
+  font-style: var(--text-line-tiny-400-font-style);
+  font-weight: var(--text-line-tiny-400-font-weight);
+  letter-spacing: var(--text-line-tiny-400-letter-spacing);
+  line-height: var(--text-line-tiny-400-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.advanced-options .option-2 {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.advanced-options .option-3 {
+  align-items: center;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.advanced-options.state-selected {
+  background-color: var(--pub-tokens-eds-colour-static-bg-success-alternative);
+}
+
+.advanced-options.mobile-true {
+  gap: 16px;
+  padding: var(--pub-tokens-eds-spacing-medium-1);
+  width: 343px;
+}
+
+.advanced-options.mobile-false {
+  gap: 8px;
+  padding: var(--pub-tokens-eds-spacing-medium-1) var(--pub-tokens-eds-spacing-small-4)
+    var(--pub-tokens-eds-spacing-medium-1) var(--pub-tokens-eds-spacing-small-4);
+  width: 160px;
+}
+
+.advanced-options.state-default {
+  background-color: var(--pub-tokens-eds-colour-static-bg-success-main);
+}
+
+.advanced-options.mobile-false .options {
+  flex-direction: column;
+  gap: 7px;
+}
+
+.advanced-options.mobile-true .options {
+  gap: 16px;
+}
+
+.advanced-options.mobile-false .option {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.advanced-options.mobile-true .option {
+  display: inline-flex;
+}
+
+.advanced-options.mobile-false .option-2 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.advanced-options.mobile-true .option-2 {
+  display: inline-flex;
+}
+
+.advanced-options.mobile-false .option-3 {
+  align-self: stretch;
+  display: flex;
+  width: 100%;
+}
+
+.advanced-options.mobile-true .option-3 {
+  display: inline-flex;
+}

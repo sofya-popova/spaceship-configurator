@@ -1,0 +1,66 @@
+.thumb {
+  align-items: center;
+  border-radius: var(--pub-tokens-eds-radius-full);
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.thumb .icon-dragger-instance {
+  background-color: var(
+    --pub-tokens-eds-colour-static-icon-on-accent-alternative
+  ) !important;
+}
+
+.thumb .class {
+  background-color: var(
+    --pub-tokens-eds-colour-static-icon-on-accent-main
+  ) !important;
+}
+
+.thumb .icon-dragger-wrapper {
+  align-items: center;
+  background-color: var(--pub-tokens-eds-colour-action-bg-accent-focus);
+  border-radius: 999px;
+  box-shadow: var(--EDS-shadow-sm);
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  padding: var(--pub-tokens-eds-spacing-small-1);
+  position: relative;
+  width: 32px;
+}
+
+.thumb.focus {
+  border: 2px solid;
+  border-color: #000000;
+  display: inline-flex;
+  padding: var(--pub-tokens-eds-spacing-small-1);
+}
+
+.thumb.active {
+  background-color: var(--pub-tokens-eds-colour-action-bg-accent-active);
+  box-shadow: var(--EDS-shadow-sm);
+  display: flex;
+  height: 32px;
+  padding: var(--pub-tokens-eds-spacing-small-4);
+  width: 32px;
+}
+
+.thumb.default {
+  background-color: var(--pub-tokens-eds-colour-action-bg-accent-default);
+  box-shadow: var(--EDS-shadow-sm);
+  display: flex;
+  height: 32px;
+  padding: var(--pub-tokens-eds-spacing-small-4);
+  width: 32px;
+}
+
+.thumb.hover {
+  background-color: var(--pub-tokens-eds-colour-action-bg-accent-hover);
+  box-shadow: var(--EDS-shadow-sm);
+  display: flex;
+  height: 32px;
+  padding: var(--pub-tokens-eds-spacing-small-4);
+  width: 32px;
+}

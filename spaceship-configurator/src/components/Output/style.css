@@ -1,0 +1,27 @@
+.output {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: var(--pub-tokens-eds-spacing-small-2);
+  position: relative;
+}
+
+.output .wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: var(--pub-tokens-eds-spacing-small-1) 0px var(--pub-tokens-eds-spacing-small-1) 0px;
+  position: relative;
+}
+
+.output .value {
+  color: var(--pub-tokens-eds-colour-static-text-on-basic-body);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

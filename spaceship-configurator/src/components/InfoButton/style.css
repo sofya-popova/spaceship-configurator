@@ -1,0 +1,65 @@
+.info-button .global-info {
+  flex: 0 0 auto !important;
+  position: relative !important;
+}
+
+.info-button.state-0-active {
+  background-size: 100% 100%;
+  height: 24px;
+  width: 24px;
+}
+
+.info-button.state-0-hover {
+  background-size: 100% 100%;
+  height: 24px;
+  width: 24px;
+}
+
+.info-button.state-0-focus {
+  align-items: flex-start;
+  background-image: url(../../assets/img/global-info-2.svg);
+  border: 2px solid;
+  border-radius: var(--pub-tokens-eds-radius-full);
+  display: inline-flex;
+  gap: 10px;
+  padding: var(--pub-tokens-eds-spacing-small-1);
+  position: relative;
+}
+
+.info-button.state-0-default {
+  background-size: 100% 100%;
+  height: 24px;
+  width: 24px;
+}
+
+.info-button.state-0-default.invert-true {
+  background-image: url(../../assets/img/global-info-4.svg);
+}
+
+.info-button.state-0-active.invert-false {
+  background-image: url(../../assets/img/global-info-9.svg);
+}
+
+.info-button.invert-false.state-0-focus {
+  border-color: #000000;
+}
+
+.info-button.state-0-active.invert-true {
+  background-image: url(../../assets/img/global-info-7.svg);
+}
+
+.info-button.state-0-hover.invert-true {
+  background-image: url(../../assets/img/global-info-6.svg);
+}
+
+.info-button.state-0-default.invert-false {
+  background-image: url(../../assets/img/global-info-2.svg);
+}
+
+.info-button.state-0-hover.invert-false {
+  background-image: url(../../assets/img/global-info-8.svg);
+}
+
+.info-button.invert-true.state-0-focus {
+  border-color: #ffffff;
+}

@@ -1,0 +1,20 @@
+.scale {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: var(--pub-tokens-eds-spacing-small-2);
+  position: relative;
+}
+
+.scale .scale-value {
+  color: var(--pub-tokens-eds-colour-static-text-on-basic-supportive);
+  font-family: var(--text-line-tiny-400-font-family);
+  font-size: var(--text-line-tiny-400-font-size);
+  font-style: var(--text-line-tiny-400-font-style);
+  font-weight: var(--text-line-tiny-400-font-weight);
+  letter-spacing: var(--text-line-tiny-400-letter-spacing);
+  line-height: var(--text-line-tiny-400-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}

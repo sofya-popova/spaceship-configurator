@@ -1,0 +1,32 @@
+.label {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: var(--pub-tokens-eds-spacing-small-2);
+  position: relative;
+}
+
+.label .label-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  padding: var(--pub-tokens-eds-spacing-small-1) 0px var(--pub-tokens-eds-spacing-small-1) 0px;
+  position: relative;
+}
+
+.label .text-wrapper {
+  color: var(--pub-tokens-eds-colour-static-text-on-basic-body);
+  font-family: var(--label-default-600-font-family);
+  font-size: var(--label-default-600-font-size);
+  font-style: var(--label-default-600-font-style);
+  font-weight: var(--label-default-600-font-weight);
+  letter-spacing: var(--label-default-600-letter-spacing);
+  line-height: var(--label-default-600-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.label .info-button {
+  position: relative !important;
+}

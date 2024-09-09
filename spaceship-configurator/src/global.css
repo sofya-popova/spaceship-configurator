@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:var(--text-line-default-400-font-weight),var(--label-small-400-font-weight),600,var(--text-line-tiny-400-font-weight),var(--label-default-600-font-weight),var(--text-line-small-400-font-weight),var(--heading-h2-font-weight),var(--text-line-small-600-font-weight),400,var(--label-default-400-font-weight),var(--text-line-default-600-font-weight)");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}

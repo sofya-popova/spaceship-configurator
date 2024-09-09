@@ -1,0 +1,93 @@
+.track {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 319px;
+}
+
+.track .div-2 {
+  align-self: stretch;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.track .class-2 {
+  align-items: center !important;
+  width: 1px !important;
+}
+
+.track .class-3 {
+  align-items: center !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.track .class-4 {
+  flex: unset !important;
+  flex-grow: unset !important;
+  margin-right: -179px !important;
+  width: 180px !important;
+}
+
+.track .scale-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  padding: var(--pub-tokens-eds-spacing-small-3) 0px 0px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.track .scale-instance {
+  flex: 0 0 auto !important;
+}
+
+.track .class-5 {
+  left: 144px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.track .class-6 {
+  left: 287px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.track .class-7 {
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.track.scale-true {
+  gap: var(--pub-tokens-eds-spacing-small-3);
+}
+
+.track.scale-false {
+  gap: var(--pub-tokens-eds-spacing-none);
+}
+
+.track.scale-false.one-hundred {
+  height: 32px;
+  justify-content: center;
+}
+
+.track.scale-false.zero {
+  justify-content: center;
+}
+
+.track.scale-false .div-2 {
+  align-items: center;
+  height: 32px;
+}
+
+.track.scale-true .div-2 {
+  align-items: flex-end;
+  height: 18px;
+}
